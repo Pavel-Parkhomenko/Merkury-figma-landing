@@ -38,8 +38,6 @@ const BgHeader = styled.div`
       border-bottom: none;
       border-top-left-radius: 15%;
       border-top-right-radius: 15%;
-      right: -10px;
-      top: 70px;
     }
     div.showMenu {
       display: flex;
@@ -53,6 +51,7 @@ const BgHeader = styled.div`
       background: gray;
       opacity: 0.95;
       height: 100%;
+      height: 30%;
       z-index: 3;
       button {
         margin-top: 2%;
@@ -76,11 +75,7 @@ const BgHeader = styled.div`
       text-align: center;
       margin-top: 10%;
     }
-    .underTitle {
-      color: #495672;
-      font-size: 36px;
-      text-align: center;
-    }
+    
     .getStarted {
       text-align: center;
       margin-top: 70px;
@@ -88,6 +83,11 @@ const BgHeader = styled.div`
         width: 205px;
         height: 50px;
       }
+      .underTitle {
+      color: #495672;
+      font-size: 36px;
+      text-align: center;
+    }
     }
     div.dashboard {
       display: flex;
@@ -120,7 +120,7 @@ const Section1 = () => {
     { key: Math.random(), name: "Features", active: false },
     { key: Math.random(), name: "Pricing", active: false },
     { key: Math.random(), name: "Blog", active: false },
-    { key: Math.random(), name: "Contact", active: false },
+    { key: Math.random(), name: "Contactt", active: false },
     { key: Math.random(), name: "Login", active: true }
   ]);
   const [menu, setMenu] = useState(false);
@@ -128,7 +128,7 @@ const Section1 = () => {
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    let timer = setInterval(() => setWidth(window.innerWidth), 50);
+    let timer = setInterval(() => setWidth(window.innerWidth), 100);
     if (width < 1000) {
       setMenu(true);
     } else {
@@ -142,7 +142,6 @@ const Section1 = () => {
     return (
       <NavButton
         key={key}
-        shape="round"
         type={active ? "" : "link"}
         onMouseOver={e =>
           setButtons(prev =>
