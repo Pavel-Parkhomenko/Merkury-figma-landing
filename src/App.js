@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "./App.css";
-
+import Section1 from "./components/Section1";
 
 const AppContainer = styled.div`
   width: 100%;
@@ -11,7 +11,7 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
-      aaa
+      <Section1 />
     </AppContainer>
   );
 }
