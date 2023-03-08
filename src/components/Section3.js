@@ -4,7 +4,7 @@ import Secction3Bg from "../img/Section3Bg.png";
 import DnD from "../img/DnD.png";
 
 const Wrapper = styled.div`
-  width: 100%;
+  width: 100vh;
   height: fit-content;
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   }
   img {
     width: fit-content;
-    max-width: 70%;
+    max-width: 80%;
     @media (max-width: 700px) {
       width: 90%;
     }
@@ -27,10 +27,12 @@ const Wrapper = styled.div`
     width: 30%;
     @media (max-width: 700px) {
       width: 90%;
+      height: 300px;
     }
     h1 {
-      font-size: 60px;
+      font-size: 65px;
       color: white;
+      margin:0;
     }
     p {
       font-size: 18px;
@@ -42,18 +44,17 @@ const Wrapper = styled.div`
 const Section3 = () => {
   return (
     <Wrapper>
-      <img src={DnD} alt="" />
+      <img src={DnD} alt="img" />
       <div className="description">
         <h1>Drag & Drop</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
         </p>
-        <br />
-        <p>
+        <div>
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat.{" "}
-        </p>
+        </div>
       </div>
     </Wrapper>
   );

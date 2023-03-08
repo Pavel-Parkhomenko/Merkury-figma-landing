@@ -163,12 +163,11 @@ const Section2 = () => {
       </div>
       <div className="underButtons" />
       <div className="block2">
-        <div className="block2-1">
+        <div className="block2-2">
           <h1>All You need is a browser!</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <br />
             <br />
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.
@@ -178,6 +177,10 @@ const Section2 = () => {
             <p>Lorem ipsum dolor sit amet consectetur</p>
           </div>
           <div className="check">
+            <Icon type="check-circle" />{" "}
+            <p>Ut enim ad minim veniam quis nostrud</p>
+          </div>
+           <div className="check">
             <Icon type="check-circle" />{" "}
             <p>Ut enim ad minim veniam quis nostrud</p>
           </div>
