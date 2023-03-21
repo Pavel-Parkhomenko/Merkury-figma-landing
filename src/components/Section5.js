@@ -17,9 +17,9 @@ const content = [
 ];
 
 const Wrapper = styled.div`
-  width: 100%;
+  width: 100vh;
   background: url(${footer}) no-repeat center center/cover;
-  height: 70px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,26 +28,30 @@ const Wrapper = styled.div`
   @media (max-width: 700px) {
     flex-direction: column-reverse;
     justify-content: center;
+    height: 30px
   }
   div.rights {
-    width: 40%;
+    width: 45%;
     padding-left: 3%;
+    padding-right: 3%;
+    margin: 0;
     @media (max-width: 700px) {
       padding: 0%;
+      margin: 0;
     }
   }
   div.links {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
     @media (max-width: 700px) {
       align-items: center;
       justify-content: center;
-      
+      padding: 10px;
     }
     a {
-      color: #8492af;
+      color: #6g72af;
       padding-right: 5%;
       @media (max-width: 700px) {
       padding: 1%;
