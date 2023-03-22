@@ -34,7 +34,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3%;
   .block1 {
     width: 100%;
     display: flex;
@@ -51,27 +50,26 @@ const Wrapper = styled.div`
     }
     div:nth-child(2) {
       div:before,
-      cursor: pointer;
       div:after {
         content: "";
         display: inline-block;
         vertical-align: middle;
         width: 50%;
-        @media (max-width: 760px) {
+        @media (max-width: 700px) {
           width: 0;
         }
         margin-top: 10%;
-        height: 5px;
+        height: 1px;
         background-color: #dadee7;
         position: relative;
       }
       div:before {
         margin-left: -100%;
-        left: -18px;
+        left: -24px;
       }
       div:after {
         margin-right: -100%;
-        right: -18px;
+        right: -24px;
       }
     }
     div {
@@ -87,13 +85,13 @@ const Wrapper = styled.div`
       }
       p {
         font-size: 18px;
-        padding: 5px 10px;
+        padding: 0 10px;
         margin-bottom: 50px;
       }
       button {
         width: 75%;
         height: 50px;
-        font-size: 24px;
+        font-size: 1.2rem;
       }
     }
   }
@@ -118,7 +116,6 @@ const Wrapper = styled.div`
       }
       h1 {
         font-size: 60px;
-        const: gray;
       }
       p {
         font-size: 18px;

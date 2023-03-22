@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     width: fit-content;
     max-width: 70%;
     @media (max-width: 700px) {
-      width: 90%;
+      width: 40%;
     }
   }
   .description {
@@ -33,8 +33,9 @@ const Wrapper = styled.div`
       color: white;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
       color: #8492af;
+      padding: 10px;
     }
   }
 `;
@@ -49,6 +50,7 @@ const Section3 = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
         </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
         <br />
         <p>
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
