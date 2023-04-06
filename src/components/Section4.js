@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Easy from "../img/Easy to customize.png";
 
-import { Button, Icon, List } from "antd";
+import { Button, List } from "antd";
+import { CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
 
 const content = [
   {
@@ -153,15 +154,11 @@ const Section4 = () => {
                   renderItem={bool => (
                     <List.Item style={{ border: "none", padding: "2px" }}>
                       {bool ? (
-                        <Icon
-                          type="check-circle"
+                        <CheckCircleOutlined
                           style={{ paddingRight: "3px", color: "#1890ff" }}
                         />
                       ) : (
-                        <Icon
-                          type="close-circle"
-                          style={{ paddingRight: "3px", color: "red" }}
-                        />
+                        <CloseCircleOutlined style={{ paddingRight: "3px", color: "red" }}/>
                       )}
                       <List.Item.Meta
                         description={"Lorem ipsum dolor sit am"}

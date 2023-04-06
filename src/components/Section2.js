@@ -5,7 +5,8 @@ import Img2 from "../img/Inteligentny obiekt wektorowy2.png";
 import Img3 from "../img/Inteligentny obiekt wektorowy3.png";
 import underButtons from "../img/underButttons.png";
 import Grupa2 from "../img/Grupa 2.png";
-import { Button, Icon } from "antd";
+import { Button } from "antd";
+import { CheckCircleOutlined } from '@ant-design/icons';
 
 const content = [
   {
@@ -174,11 +175,11 @@ const Section2 = () => {
             nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="check">
-            <Icon type="check-circle" />{" "}
+            <CheckCircleOutlined />
             <p>Lorem ipsum dolor sit amet consectetur</p>
           </div>
           <div className="check">
-            <Icon type="check-circle" />{" "}
+            <CheckCircleOutlined />
             <p>Ut enim ad minim veniam quis nostrud</p>
           </div>
         </div>

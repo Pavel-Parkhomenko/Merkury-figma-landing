@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import footer from "../img/footer.png";
-
-import { Icon } from "antd";
+import { FacebookFilled } from '@ant-design/icons';
 
 const content = [
   {
@@ -68,7 +67,7 @@ const Section5 = () => {
           );
         })}
         <a href="@">
-          <Icon type="facebook" />
+          <FacebookFilled />
         </a>
       </div>
     </Wrapper>

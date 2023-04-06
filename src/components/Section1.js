@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Icon } from "antd";
+import { Button } from "antd";
 import Logo from "../img/Logo.png";
 import HeaderBg from "../img/HeaderImg.png";
 import DashBoard from "../img/Dashboard.png";
