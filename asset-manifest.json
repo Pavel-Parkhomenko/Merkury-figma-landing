@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/figma-layout-1/static/css/main.e5cdda46.css",
+    "main.js": "/figma-layout-1/static/js/main.0dcdcfe6.js",
+    "static/js/787.c20b047d.chunk.js": "/figma-layout-1/static/js/787.c20b047d.chunk.js",
+    "static/media/Easy to customize.png": "/figma-layout-1/static/media/Easy to customize.1c194fc73d8b726099d8.png",
+    "static/media/Dashboard.png": "/figma-layout-1/static/media/Dashboard.69fab3c7487c181ba9fc.png",
+    "static/media/Grupa 2.png": "/figma-layout-1/static/media/Grupa 2.842c34c4cb10fc8513ca.png",
+    "static/media/DnD.png": "/figma-layout-1/static/media/DnD.ec94c2e3b7b3a65779e8.png",
+    "static/media/Section3Bg.png": "/figma-layout-1/static/media/Section3Bg.f127e5bc7d4afb548407.png",
+    "static/media/HeaderImg.png": "/figma-layout-1/static/media/HeaderImg.ef1487325299044c79b9.png",
+    "index.html": "/figma-layout-1/index.html",
+    "main.e5cdda46.css.map": "/figma-layout-1/static/css/main.e5cdda46.css.map",
+    "main.0dcdcfe6.js.map": "/figma-layout-1/static/js/main.0dcdcfe6.js.map",
+    "787.c20b047d.chunk.js.map": "/figma-layout-1/static/js/787.c20b047d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5cdda46.css",
+    "static/js/main.0dcdcfe6.js"
+  ]
+}
