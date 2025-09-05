@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Merkury-figma-landing/static/css/main.e5cdda46.css",
-    "main.js": "/Merkury-figma-landing/static/js/main.d6135085.js",
-    "static/js/787.c20b047d.chunk.js": "/Merkury-figma-landing/static/js/787.c20b047d.chunk.js",
+    "main.js": "/Merkury-figma-landing/static/js/main.f8cf4da9.js",
     "static/media/Easy to customize.png": "/Merkury-figma-landing/static/media/Easy to customize.1c194fc73d8b726099d8.png",
     "static/media/Dashboard.png": "/Merkury-figma-landing/static/media/Dashboard.69fab3c7487c181ba9fc.png",
     "static/media/Grupa 2.png": "/Merkury-figma-landing/static/media/Grupa 2.842c34c4cb10fc8513ca.png",
@@ -11,11 +10,10 @@
     "static/media/HeaderImg.png": "/Merkury-figma-landing/static/media/HeaderImg.ef1487325299044c79b9.png",
     "index.html": "/Merkury-figma-landing/index.html",
     "main.e5cdda46.css.map": "/Merkury-figma-landing/static/css/main.e5cdda46.css.map",
-    "main.d6135085.js.map": "/Merkury-figma-landing/static/js/main.d6135085.js.map",
-    "787.c20b047d.chunk.js.map": "/Merkury-figma-landing/static/js/787.c20b047d.chunk.js.map"
+    "main.f8cf4da9.js.map": "/Merkury-figma-landing/static/js/main.f8cf4da9.js.map"
   },
   "entrypoints": [
     "static/css/main.e5cdda46.css",
-    "static/js/main.d6135085.js"
+    "static/js/main.f8cf4da9.js"
   ]
 }
