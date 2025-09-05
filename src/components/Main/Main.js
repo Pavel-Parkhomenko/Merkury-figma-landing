@@ -1,6 +1,6 @@
-import React from "react";
-import { Wrapper } from './styled';
-import DnD from "../../img/DnD.png";
+import React from "react"
+import { Wrapper } from './styled'
+import DnD from "../../img/DnD.png"
 
 const Main = () => {
   return (
@@ -19,7 +19,7 @@ const Main = () => {
         </p>
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

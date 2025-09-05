@@ -1,7 +1,7 @@
 {
   "name": "figma-layout-1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://Pavel-Parkhomenko.github.io/Merkury-figma-landing",
   "dependencies": {
     "@ant-design/icons": "^5.0.1",

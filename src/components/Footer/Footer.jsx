@@ -1,6 +1,6 @@
-import React from "react";
-import { FacebookFilled } from '@ant-design/icons';
-import { Wrapper } from './styled';
+import React from "react"
+import { FacebookFilled } from '@ant-design/icons'
+import { Wrapper } from './styled'
 
 const content = [
   {
@@ -31,7 +31,7 @@ const Footer = () => {
         </a>
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

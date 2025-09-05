@@ -35,4 +35,4 @@ export const Wrapper = styled.div`
       color: #8492af;
     }
   }
-`;
+`

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import "./App.css";
 import Header from "./components/Header/Header";
 import PreInfo from "./components/PreInfo/PreInfo";
 import Main from "./components/Main/Main";

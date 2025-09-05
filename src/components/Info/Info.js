@@ -1,8 +1,8 @@
-import React from "react";
-import Easy from "../../img/Easy to customize.png";
+import React from "react"
+import Easy from "../../img/Easy to customize.png"
 import { Wrapper } from './styled'
-import { Button, List } from "antd";
-import { CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
+import { Button, List } from "antd"
+import { CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons'
 
 const content = [
   {
@@ -83,7 +83,7 @@ const Info = () => {
         </div>
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Info;
+export default Info
